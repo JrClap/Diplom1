@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\task1\\task1.csproj",
+      "projectUniqueName": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\Diplom1\\task1\\task1.csproj",
       "projectName": "task1",
-      "projectPath": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\task1\\task1.csproj",
+      "projectPath": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\Diplom1\\task1\\task1.csproj",
       "packagesPath": "C:\\Users\\mrjrc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\task1\\obj\\",
+      "outputPath": "C:\\Users\\mrjrc\\OneDrive\\Desktop\\Diplom1\\Diplom1\\task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mrjrc\\AppData\\Roaming\\NuGet\\NuGet.Config"
