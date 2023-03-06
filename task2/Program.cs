@@ -4,6 +4,11 @@
 
 string[] CreateArray(int size)
 {
+    if (size <= 0)
+    {
+        throw new ArgumentException("Array size must be positive.");
+    }
+    
     string[] array = new string[size];
     for (int i = 0; i < size; i++)
     {
