@@ -35,14 +35,15 @@ void ShowArray(string[] array)
 void CheckArray(string[] array)
 {
     Console.Write("An array of values with more than 3 elements: ");
+    Console.Write("[ ");
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
-            Console.Write(array[i] + " ");
+            Console.Write($"'{array[i]}' ");
         }
     }
-    Console.WriteLine();
+    Console.Write("]");
 }
 
 Console.Write("Enter the size of the array: ");
