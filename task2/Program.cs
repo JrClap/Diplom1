@@ -20,13 +20,17 @@ string[] CreateArray(int size)
 
 void ShowArray(string[] array)
 {
+    Console.Write("['");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + " ");
+        Console.Write(array[i]);
+        if (i < array.Length - 1)
+        {
+            Console.Write("', '");
+        }
     }
-    Console.WriteLine();
+    Console.WriteLine("']");
 }
-
 
 void CheckArray(string[] array)
 {
